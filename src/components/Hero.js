@@ -2,13 +2,11 @@ import React from 'react';
 
 function Hero() {
   return (
-    <div className='hero-section'>
+    <section className='hero-section'>
       <img src="./hero-img.png" alt="hero" className='hero-img'/>
-      <div className='hero-text'>
-        <h1>Online Experiences</h1>
-        <p>Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</p>
-      </div>
-    </div>
+      <h1 className='hero-header'>Online Experiences</h1>
+      <p className='hero-text'>Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</p>
+    </section>
   )
 }
 
