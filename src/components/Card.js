@@ -5,7 +5,7 @@ function Card(props) {
     <div className='card'>
       <img src={`./${props.img}`} alt={props.alt} className='card-img'/>
       <div className='card-stats'>
-        <img src='./star.png' alt='star' className='card-star'></img>
+        <img src='../images/star.png' alt='star' className='card-star'></img>
           <span>{props.rating}</span>
           <span className='gray'>({props.reviewCount}) •</span>
           <span className='gray'>{props.country}</span>

@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <Card img='katie-zaferes.png'
+      <Card img='../images/katie-zaferes.png'
             alt='Katie Zaferes photo'
             rating='5.0'
             reviewCount={6}
