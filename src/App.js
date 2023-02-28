@@ -15,6 +15,7 @@ function App() {
                  location={cardItem.location}
                  title={cardItem.title}
                  price={cardItem.price}
+                 openSpots={cardItem.openSpots}
                 />
   });
   

@@ -64,6 +64,7 @@ section {
 }
 
 .card {
+  position: relative;
   width: 176px;
   font-size: 12px;
   margin: 0 36px;
@@ -97,3 +98,11 @@ section {
   overflow: hidden;
 }
 
+.card-badge {
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  padding: 5px 7px;
+  background-color: #fff;
+  border-radius: 2px;
+}
