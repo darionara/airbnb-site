@@ -2,14 +2,14 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Card from './components/Card';
-import data from './data/data'
+import data from './data/data';
 
 function App() {
   
   const cardItems = data.map(cardItem => {
     return <Card key={cardItem.id}
-                 {...cardItem}
-                />
+      {...cardItem}
+    />;
   });
   
   return (
