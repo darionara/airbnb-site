@@ -15,16 +15,13 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "prettier"
     ],
     "rules": {
         "indent": [
             "error",
             2
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
         ],
         "quotes": [
             "error",
@@ -33,6 +30,9 @@
         "semi": [
             "error",
             "always"
+        ],
+        "no-unused-vars": [
+            "warn"
         ]
     }
 }
